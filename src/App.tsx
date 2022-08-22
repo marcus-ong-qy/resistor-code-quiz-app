@@ -65,7 +65,7 @@ function App() {
 
   const onSubmit = (e: any) => {
     e.preventDefault()
-    const valueNum = parseInt(input)
+    const valueNum = Number(input)
     const isCorrect = valueNum === curAnswer
     setCorrect(isCorrect)
     isCorrect && setCorrectCount(correctCount + 1)
