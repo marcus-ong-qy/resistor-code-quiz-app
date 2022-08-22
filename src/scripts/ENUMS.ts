@@ -13,7 +13,7 @@ export const COLOUR_INDEX = [
 
 export const COLOUR_CODES = [
   '#000000',
-  '#A52A2A',
+  '#964B00',
   '#FF0000',
   '#FFA500',
   '#FFFF00',
